@@ -192,7 +192,7 @@ function InitialWalletView({ onClose }: { onClose: () => void }) {
           >
             <Typography>Get on Uniswap</Typography>
           </ExternalLink>
-          <Borrow
+          {/* <Borrow
             href={`https://app.rari.capital/fuse/pool/18`}
             borrowOn="Rari Capital"
             borrowableTokensIcons={["wETH", "DAI", "FRAX"]}
@@ -208,7 +208,7 @@ function InitialWalletView({ onClose }: { onClose: () => void }) {
             <ExternalLink href={`https://dune.xyz/shadow/Olympus-(OHM)`}>
               <Typography>Shadow's dashboard</Typography>
             </ExternalLink>
-          </Box>
+          </Box> */}
         </Box>
 
         <Box sx={{ marginTop: "auto", marginX: "auto", padding: theme.spacing(2) }}>

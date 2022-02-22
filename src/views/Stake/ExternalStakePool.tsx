@@ -1,4 +1,4 @@
-import { t, Trans } from "@lingui/macro";
+import { t } from "@lingui/macro";
 import { Box, makeStyles, Typography, useTheme, Zoom } from "@material-ui/core";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { Skeleton } from "@material-ui/lab";
@@ -115,8 +115,8 @@ export default function ExternalStakePool() {
           ))}
         </>
       ) : (
-        <Paper headerText={t`Farm Pool`}>
-          <Box className={styles.stakePoolsWrapper} style={{ gap: theme.spacing(1.5), marginBottom: "0.5rem" }}>
+        <Paper headerText={t`Farm Pool (Coming Soon)`}>
+          {/* <Box className={styles.stakePoolsWrapper} style={{ gap: theme.spacing(1.5), marginBottom: "0.5rem" }}>
             <Typography gutterBottom={false} className={styles.stakePoolHeaderText} style={{ marginLeft: "75px" }}>
               <Trans>Asset</Trans>
             </Typography>
@@ -131,7 +131,7 @@ export default function ExternalStakePool() {
             {allStakePools?.pools?.map(pool => (
               <StakePool pool={pool} isLoading={allStakePools?.isLoading} />
             ))}
-          </Box>
+          </Box> */}
         </Paper>
       )}
     </Zoom>

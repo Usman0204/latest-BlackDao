@@ -268,24 +268,24 @@ export const useWallet = (
   const { gohm, wsohm, isLoading } = useCrossChainBalances(userAddress);
 
   const tokens = {
-    ohmV1: {
-      symbol: "OHM V1",
-      address: addresses[networkId].OHM_ADDRESS,
-      balance: connectedChainBalances.ohmV1,
-      price: ohmPrice || 0,
-      icon: "OHM",
-      decimals: 9,
-    },
-    sohmV1: {
-      symbol: "sOHM V1",
-      address: addresses[networkId].SOHM_ADDRESS,
-      balance: connectedChainBalances.sohmV1,
-      price: ohmPrice || 0,
-      icon: "sOHM",
-      decimals: 9,
-    },
+    // ohmV1: {
+    //   symbol: "BLKD V1",
+    //   address: addresses[networkId].OHM_ADDRESS,
+    //   balance: connectedChainBalances.ohmV1,
+    //   price: ohmPrice || 0,
+    //   icon: "OHM",
+    //   decimals: 9,
+    // },
+    // sohmV1: {
+    //   symbol: "sBLKD V1",
+    //   address: addresses[networkId].SOHM_ADDRESS,
+    //   balance: connectedChainBalances.sohmV1,
+    //   price: ohmPrice || 0,
+    //   icon: "sOHM",
+    //   decimals: 9,
+    // },
     ohm: {
-      symbol: "OHM",
+      symbol: "BLKD",
       address: addresses[networkId].OHM_V2,
       balance: connectedChainBalances.ohm,
       price: ohmPrice || 0,
@@ -293,7 +293,7 @@ export const useWallet = (
       decimals: 9,
     },
     sohm: {
-      symbol: "sOHM",
+      symbol: "sBLKD",
       address: addresses[networkId].SOHM_V2,
       balance: connectedChainBalances.sohm,
       price: ohmPrice || 0,
@@ -304,7 +304,7 @@ export const useWallet = (
       decimals: 9,
     },
     wsohm: {
-      symbol: "wsOHM",
+      symbol: "wsBLKD",
       address: addresses[networkId].WSOHM_ADDRESS,
       balance: connectedChainBalances.wsohm,
       price: (ohmPrice || 0) * Number(currentIndex || 0),
@@ -321,7 +321,7 @@ export const useWallet = (
       decimals: 9,
     },
     gohm: {
-      symbol: "gOHM",
+      symbol: "gBLKD",
       address: addresses[networkId].GOHM_ADDRESS,
       balance: connectedChainBalances.gohm,
       price: (ohmPrice || 0) * Number(currentIndex || 0),

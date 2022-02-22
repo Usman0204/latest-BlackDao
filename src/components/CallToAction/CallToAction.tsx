@@ -1,6 +1,6 @@
 import "./CallToAction.scss";
 
-import { t, Trans } from "@lingui/macro";
+import {  Trans } from "@lingui/macro";
 import { Box, Button, SvgIcon, Typography } from "@material-ui/core";
 
 import { ReactComponent as ArrowUp } from "../../assets/icons/arrow-up.svg";
@@ -9,7 +9,7 @@ export const LearnMoreButton = () => (
   <Button
     variant="outlined"
     color="secondary"
-    href="https://docs.olympusdao.finance/main/basics/migration"
+    href="https://docs.blk.finance/"
     target="_blank"
     className="learn-more-button"
   >
@@ -50,7 +50,7 @@ const CallToAction = ({ setMigrationModalOpen }: CallToActionProps) => (
     </Typography>
     <div className="actionable">
       <LearnMoreButton />
-      <MigrateButton setMigrationModalOpen={setMigrationModalOpen} btnText={t`Get Started`} />
+      {/* <MigrateButton setMigrationModalOpen={setMigrationModalOpen} btnText={t`Get Started`} /> */}
     </div>
   </Box>
 );
