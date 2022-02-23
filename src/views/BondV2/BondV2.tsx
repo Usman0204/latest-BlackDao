@@ -3,7 +3,7 @@ import "./Bond.scss";
 import { t, Trans } from "@lingui/macro";
 import { Box, Fade, Grid, Typography } from "@material-ui/core";
 import { Skeleton } from "@material-ui/lab";
-import { Icon, Modal, TokenStack } from "@olympusdao/component-library";
+import { Icon, Modal } from "@olympusdao/component-library";
 import { ChangeEvent, Fragment, ReactElement, useEffect, useState } from "react";
 import { useHistory } from "react-router";
 import { useAppSelector } from "src/hooks";
@@ -70,7 +70,7 @@ const BondV2 = ({ index }: { index: number }) => {
   );
   const headerContent = (
     <Box display="flex" flexDirection="row">
-      <TokenStack tokens={bond.bondIconSvg} />
+      {/* <TokenStack tokens={bond.bondIconSvg} /> */}
       <Box display="flex" flexDirection="column" ml={1} justifyContent="center" alignItems="center">
         <Typography variant="h5">{`${bond.displayName}`}</Typography>
       </Box>

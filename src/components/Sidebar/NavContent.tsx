@@ -1,6 +1,5 @@
 /* eslint-disable */
 import "./Sidebar.scss";
-
 import { t, Trans } from "@lingui/macro";
 import {
   Accordion,

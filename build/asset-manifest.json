@@ -13,8 +13,8 @@
     "ko-messages.js": "./static/js/ko-messages.d89c9dfd.chunk.js",
     "ko-messages.js.map": "./static/js/ko-messages.d89c9dfd.chunk.js.map",
     "main.css": "./static/css/main.662ae264.chunk.css",
-    "main.js": "./static/js/main.810a3406.chunk.js",
-    "main.js.map": "./static/js/main.810a3406.chunk.js.map",
+    "main.js": "./static/js/main.b62c3b73.chunk.js",
+    "main.js.map": "./static/js/main.b62c3b73.chunk.js.map",
     "pl-messages.js": "./static/js/pl-messages.9bbb9dad.chunk.js",
     "pl-messages.js.map": "./static/js/pl-messages.9bbb9dad.chunk.js.map",
     "pt-messages.js": "./static/js/pt-messages.14507b11.chunk.js",
@@ -53,7 +53,7 @@
     "static/media/step-1.cdc2b38d.svg": "./static/media/step-1.cdc2b38d.svg",
     "static/media/step-2.66bc9374.svg": "./static/media/step-2.66bc9374.svg",
     "static/media/step-complete.4ad93c05.svg": "./static/media/step-complete.4ad93c05.svg",
-    "static/media/token_OHM.d42a6522.svg": "./static/media/token_OHM.d42a6522.svg",
+    "static/media/token_OHM.fbdcd7b1.svg": "./static/media/token_OHM.fbdcd7b1.svg",
     "static/media/token_sOHM.154909e2.svg": "./static/media/token_sOHM.154909e2.svg",
     "static/media/wETH.8a161728.svg": "./static/media/wETH.8a161728.svg",
     "static/media/wallet.8567edfd.svg": "./static/media/wallet.8567edfd.svg",
@@ -63,6 +63,6 @@
     "static/js/runtime-main.17b2e988.js",
     "static/js/14.75abbb44.chunk.js",
     "static/css/main.662ae264.chunk.css",
-    "static/js/main.810a3406.chunk.js"
+    "static/js/main.b62c3b73.chunk.js"
   ]
 }
