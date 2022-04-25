@@ -395,7 +395,7 @@ export const cvx_expired = new CustomBond({
 
 export const ohm_dai = new LPBond({
   name: "ohm_dai_lp",
-  displayName: "OHM-DAI LP",
+  displayName: "BKKD-DAI LP",
   bondToken: "DAI",
   payoutToken: "OHM",
   v2Bond: true,
@@ -434,8 +434,8 @@ export const ohm_dai = new LPBond({
       reserveAddress: "0x055475920a8c93CfFb64d039A8205F7AcC7722d3",
     },
     [NetworkId.TESTNET_RINKEBY]: {
-      bondAddress: "0xcF449dA417cC36009a1C6FbA78918c31594B9377",
-      reserveAddress: "0x8D5a22Fb6A1840da602E56D1a260E56770e0bCE2",
+      bondAddress: "0x709B2876f77925a6392ec66313F82F65d358B3dB",
+      reserveAddress: "0x07981C67a53C9c1b8Cc3263275Cfcbe1E6B65da4",
     },
   },
   lpUrl:
@@ -497,7 +497,7 @@ export const ohm_daiOld = new LPBond({
 
 export const ohm_frax = new LPBond({
   name: "ohm_frax_lp",
-  displayName: "OHM-FRAX LP",
+  displayName: "BLKD-FRAX LP",
   bondToken: "FRAX",
   payoutToken: "OHM",
   v2Bond: true,
@@ -535,8 +535,8 @@ export const ohm_frax = new LPBond({
       reserveAddress: "0xB612c37688861f1f90761DC7F382C2aF3a50Cc39",
     },
     [NetworkId.TESTNET_RINKEBY]: {
-      bondAddress: "0x7BB53Ef5088AEF2Bb073D9C01DCa3a1D484FD1d2",
-      reserveAddress: "0x11BE404d7853BDE29A3e73237c952EcDCbBA031E",
+      bondAddress: "0x709B2876f77925a6392ec66313F82F65d358B3dB",
+      reserveAddress: "0xEE5bEF62580F3fB970CfB7207c14196fcc5011e7",
     },
   },
   lpUrl:

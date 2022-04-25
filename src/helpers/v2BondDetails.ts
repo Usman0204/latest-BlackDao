@@ -142,9 +142,9 @@ export const UnknownDetails: V2BondDetails = {
  */
 export const v2BondDetails: { [key: number]: { [key: string]: V2BondDetails } } = {
   [NetworkId.TESTNET_RINKEBY]: {
-    [("0x2282eD292D0833de65a92f7B4D20aaaD5B26ABf2").toLowerCase()]: DaiDetails,
+    [("0x2eE127e04b1AF4ebb77f6c0405B9C277c9079e74").toLowerCase()]: DaiDetails,
    // ["0x5ed8bd53b0c3fa3deabd345430b1a3a6a4e8bd7c"]: DaiDetails,
-    [("0x7c10F68182Bf3B3c8B0B98Bc9ed9319dcA739184").toLowerCase()]: FraxDetails,
+    [("0x03B40c5d740d6f4D76dDB484d7D4D9A0FD6202A5").toLowerCase()]: FraxDetails,
     [("0xc778417e063141139fce010982780140aa0cd5ab").toLowerCase()]: EthDetails,
     // ["0xb2180448f8945c8cc8ae9809e67d6bd27d8b2f2c"]: CvxDetails, // we do not have CVX rinkeby in previous bonds
     [("0x97aa6b330967fc46Bd819535ae86701275a872d9").toLowerCase()]: OhmDaiDetails,
