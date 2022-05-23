@@ -400,7 +400,7 @@ const Stake: React.FC = () => {
                                     <>
                                       <Trans>First time staking</Trans> <b>BLKD</b>?
                                       <br />
-                                      <Trans>Please approve BLACK Dao to use your</Trans> <b>BLKD</b>{" "}
+                                      <Trans>Please approve BLK Finance to use your</Trans> <b>BLKD</b>{" "}
                                       <Trans>for staking</Trans>.
                                     </>
                                   ) : (
