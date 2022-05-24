@@ -132,14 +132,14 @@ const NavContent: React.FC<NavContentProps> = ({ handleDrawerToggle }) => {
                   </div>
                   <NavItem to="/stake" icon="stake" label={t`Stake`} />
 
-                  {/* NOTE (appleseed-olyzaps): OlyZaps disabled until v2 contracts */}
-                  <NavItem to="" icon="zap" label={t`Mint Function`} chip={t`Coming soon`} />
+                  {/* NOTE (appleseed-olyzaps): OlyZaps disabled until v2 contracts */} 
 
                   {EnvHelper.isGiveEnabled(location.search) && (
                     <NavItem to="" icon="give" label={t`Give`} chip={t`Coming soon`} />
                   )}
                   {/* <NavItem to="/wrap" icon="wrap" label={t`Wrap`} /> */}
-                  <NavItem to="" icon="wrap" label={t`Air Drop`}  chip={t`Coming soon`} />
+                  <NavItem to="" icon="zap" label={t`Mint`} chip={t`Coming soon`} />
+                  <NavItem to="" icon="wrap" label={t`Airdrop`}  chip={t`Coming soon`} />
                   {/* <NavItem to="" icon="bridge" label={t`Auction`} chip={t`Coming soon`} /> */}
                   {/* <NavItem
                     href={"https://synapseprotocol.com/?inputCurrency=gOHM&outputCurrency=gOHM&outputChain=43114"}
