@@ -138,7 +138,7 @@ const NavContent: React.FC<NavContentProps> = ({ handleDrawerToggle }) => {
                     <NavItem to="" icon="give" label={t`Give`} chip={t`Coming soon`} />
                   )}
                   {/* <NavItem to="/wrap" icon="wrap" label={t`Wrap`} /> */}
-                  <NavItem href="https://dreamy-peony-d0feed.netlify.app" icon="zap" label={t`Mint`} />
+                  <NavItem href="https://mint.blk.finance/" icon="zap" label={t`Mint`} />
                   <NavItem to="" icon="wrap" label={t`Airdrop`}  chip={t`Coming soon`} />
                   {/* <NavItem to="" icon="bridge" label={t`Auction`} chip={t`Coming soon`} /> */}
                   {/* <NavItem
