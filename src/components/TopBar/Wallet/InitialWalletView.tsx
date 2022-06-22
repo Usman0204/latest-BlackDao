@@ -179,7 +179,7 @@ function InitialWalletView({ onClose }: { onClose: () => void }) {
           <ExternalLink
             color={currentTheme === "dark" ? "primary" : undefined}
             href={`https://app.sushi.com/swap?inputCurrency=${dai.getAddressForReserve(networkId)}&outputCurrency=${
-              addresses[networkId].OHM_V2
+              addresses[networkId]?.OHM_V2
             }`}
           >
             <Typography>Get on Sushiswap</Typography>
@@ -188,7 +188,7 @@ function InitialWalletView({ onClose }: { onClose: () => void }) {
             color={currentTheme === "dark" ? "primary" : undefined}
             href={`https://app.uniswap.org/#/swap?inputCurrency=${frax.getAddressForReserve(
               networkId,
-            )}&outputCurrency=${addresses[networkId].OHM_V2}`}
+            )}&outputCurrency=${addresses[networkId]?.OHM_V2}`}
           >
             <Typography>Get on Uniswap</Typography>
           </ExternalLink>
