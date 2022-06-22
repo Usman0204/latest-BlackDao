@@ -138,9 +138,9 @@ const NavContent: React.FC<NavContentProps> = ({ handleDrawerToggle }) => {
                     <NavItem to="" icon="give" label={t`Give`} chip={t`Coming soon`} />
                   )}
                   {/* <NavItem to="/wrap" icon="wrap" label={t`Wrap`} /> */}
-                  <NavItem href="https://claim.blk.finance/claim" icon="zap" label={t`Mint`} />
+                  <NavItem href="https://mint.blk.finance/claim" icon="zap" label={t`Mint`} />
                   <NavItem to="" icon="wrap" label={t`Airdrop`}  chip={t`Coming soon`} />
-                  <NavItem href="https://mint.blk.finance/claim" icon="bridge" label={t`Claim`}  />
+                  <NavItem href="https://claim.blk.finance/claim" icon="bridge" label={t`Claim`}  />
                   {/* <NavItem
                     href={"https://synapseprotocol.com/?inputCurrency=gOHM&outputCurrency=gOHM&outputChain=43114"}
                     icon="bridge"
