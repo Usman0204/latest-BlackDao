@@ -39,8 +39,8 @@ export const OHMPrice = () => {
     ...sharedProps,
     label: t`BLKD Price`,
   };
-
-  if (ohmPrice) props.metric = formatCurrency(ohmPrice, 2);
+  // formatCurrency(ohmPrice, 2)
+  if (ohmPrice) props.metric = "$ 0.00";
   else props.isLoading = true;
 
   return <Metric {...props} />;

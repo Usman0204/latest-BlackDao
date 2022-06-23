@@ -25,7 +25,7 @@ import { IUserBondDetails } from "src/slices/AccountSlice";
 import { getAllBonds, getUserNotes, IUserNote } from "src/slices/BondSliceV2";
 import { AppDispatch } from "src/store";
 
-import { formatCurrency } from "../../helpers";
+// import { formatCurrency } from "../../helpers";
 import { BondDataCard, BondTableData } from "./BondRow";
 import ClaimBonds from "./ClaimBonds";
 
@@ -87,9 +87,11 @@ function ChooseBondV2() {
               metric={formattedTreasuryBalance}
               isLoading={!!treasuryBalance ? false : true}
             />
+
+{/* {formatCurrency(Number(marketPrice), 2)} */}
             <Metric
               label={t`BLKD Price`}
-              metric={formatCurrency(Number(marketPrice), 2)}
+              metric="$ 0.00"
               isLoading={marketPrice ? false : true}
             />
           </MetricCollection>

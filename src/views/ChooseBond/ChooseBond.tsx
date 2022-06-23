@@ -28,7 +28,7 @@ import { IUserBondDetails } from "src/slices/AccountSlice";
 import { IUserNote } from "src/slices/BondSliceV2";
 
 import { ReactComponent as ArrowUp } from "../../assets/icons/arrow-up.svg";
-import { formatCurrency } from "../../helpers";
+// import { formatCurrency } from "../../helpers";
 import useBonds from "../../hooks/useBonds";
 import ClaimBonds from "../BondV2/ClaimBonds";
 import { BondDataCard, BondTableData } from "./BondRow";
@@ -107,8 +107,9 @@ function ChooseBond() {
               isLoading={!!treasuryBalance ? false : true}
             />
             <Metric
+            // {formatCurrency(Number(marketPrice), 2)}
               label={t`BLKD Price`}
-              metric={formatCurrency(Number(marketPrice), 2)}
+              metric="$ 0.00"
               isLoading={marketPrice ? false : true}
             />
           </MetricCollection>
