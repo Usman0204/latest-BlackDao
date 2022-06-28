@@ -110,7 +110,7 @@ const OhmDaiDetails: V2BondDetails = {
     [NetworkId.TESTNET_RINKEBY]:
       "https://app.sushi.com/add/0x5eD8BD53B0c3fa3dEaBd345430B1A3a6A4e8BD7C/0x1e630a578967968eb02EF182a50931307efDa7CF",
     [NetworkId.MAINNET]:
-      "https://app.sushi.com/add/0xe7DA1d8327AE1F320BbC23ca119b02AD3f85dceB/0x6b175474e89094c44da98b954eedeac495271d0f",
+      "https://app.sushi.com/add/0xe7DA1d8327AE1F320BbC23ca119b02AD3f85dceB/0x916B12723De3707372174cB2016e087C66DDFc39",
   },
 };
 
@@ -123,7 +123,7 @@ const OhmEthDetails: V2BondDetails = {
   isLP: true,
   lpUrl: {
     [NetworkId.MAINNET]:
-      "https://app.sushi.com/add/0xe7DA1d8327AE1F320BbC23ca119b02AD3f85dceB/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "https://app.sushi.com/add/0xe7DA1d8327AE1F320BbC23ca119b02AD3f85dceB/0xb7126C86caD05E7153C7dc35612b7E3ed438822c",
   },
 };
 
@@ -156,7 +156,7 @@ export const v2BondDetails: { [key: number]: { [key: string]: V2BondDetails } } 
     ["0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"]: WbtcDetails,
     ["0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"]: EthDetails,
     ["0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"]: CvxDetails,
-    [("0x69b81152c5a8d35a67b32a4d3772795d96cae4da".toLowerCase())]: OhmEthDetails,
-    [("0x916B12723De3707372174cB2016e087C66DDFc39".toLowerCase())]: OhmDaiDetails,
+    [("0xb7126C86caD05E7153C7dc35612b7E3ed438822c".toLowerCase())]: OhmEthDetails,
+    [("0x17724357aB08aa3b9b6CfBf86a16e585ad98534F".toLowerCase())]: OhmDaiDetails,
   },
 };
